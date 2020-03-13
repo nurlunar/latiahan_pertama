@@ -1,0 +1,245 @@
+body{
+	font-family: arial;
+	font-size: 12px;
+	margin: 0px;
+	background-color: #ede6e6;
+}
+#wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+#container{
+	background-color: #fff;
+}
+header{
+	height: 100px;
+}
+header h1 {
+	float: left;
+	color: #994d00;
+	font-family: "montserrat";
+	font-size: 30px;
+	margin-top: 40px;
+}
+header img { 
+	width: 40px;
+	height: 40px;
+	margin-top: 40px;
+	float: right;
+	padding: 5px;	
+}
+header input[type=search]{
+	border: 1px solid #994d00;
+	border-radius: 5px;
+	margin-left: 270px;
+	margin-top: 40px;
+	padding: 8px;
+}
+header a{
+	border: 1px solid #994d00;
+	border-radius: 5px;
+	padding: 8px 20px 8px 20px;
+	text-decoration: none;
+	background-color: #fff;
+}
+header a:hover{
+	background-color: #994d00;
+	color: #fff;
+	font-weight: bold;
+	transition: 1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+}
+nav{
+	background-color: #994d00;
+	height: 40px;
+}
+nav a{
+	display: inline-block;
+	width: 140px;
+	padding:0px 5px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+nav a:hover{
+	background-color: #331a00;
+	border-radius: 5px;
+	transition: 1s;
+}
+article{
+	float:left;
+	width: 600px;
+	padding: 0px 10px 10px 10px;
+}
+article h2 {
+	color: #cc7a00;
+	font-weight: bold;
+	padding: 5px 0px 5px 0px;
+}
+article figure{
+	float: left;
+	margin: 1px;
+	width: 170px;
+	height: auto;
+	padding: 0px 10px 0px 10px;
+	border: 1px solid #ccc;
+	border-bottom: 5px solid #994d00;
+	background-color: #f7eded;
+}
+figure img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	transition:transform .8s ease-in-out;
+    }
+    img:hover{
+    	transform: rotate(360deg);
+}
+figure h3 {
+	color: #cc7a00;
+}
+figcaption {
+	font-size: 90%;
+	text-align: left;
+	line-height: 1.5em;
+	color: #993300;
+    }
+    #kiri{
+    	width:200px;
+    	float:left;
+    	color: #fff; 
+    }
+    #kanan{
+    	width: 200px;
+    	float: right;
+    	color: #fff;
+    }
+    #most img{
+    	width: 90px;
+    	height: 90px;
+    	float: left;
+    	padding:0px 5px 0px 0px; 
+    }
+    #most figure{
+    	width: 168px;
+    	height: 160px;
+    	padding: 0px 10px;
+    	margin: 2px 5px;
+    	border:1px solid #ccc;
+    	background-color:#f7eded;
+    }
+    #most h3{
+    	text-align: center;
+    	background-color: #804000;
+    	padding: 5px;
+    	margin: 5px;
+    }
+    #most h4{
+    	color: #cc7a00;
+    }
+    footer{
+    	clear: both;
+    	padding: 50px;
+    	background-color: #994d00;
+    }
+    footer p{
+    	color: #fff;
+    	text-align: center;
+    }
+    .aktif{
+    	background-color: #331a00;
+    }
+    #cc{
+    	float: left;
+    	width: 980px;
+    	padding: 20px;
+    }
+    #cc h2, #cc h3{
+    	color: #cc7a00;
+    	font-weight: bold;
+    	padding: 3px 20px 5px 0px;
+    }
+    #cc p{
+    	text-align: justify;
+    	line-height: 1.5em;
+    }
+    #con{
+    	color: #0358b5;
+    }
+    form input[type=text],textarea,input[type=email]{
+    	padding: 8px;
+    	width: 350px;
+    	border: 1px solid #5d5e60;
+    	border-radius: 5px;
+    }
+    form input[type=submit],input[type=reset]{
+    	padding: 5px;
+    	border: 1px solid #5d5e60;
+    	border-radius: 5px;
+
+    	}
+    .login{
+    	width: 400px;
+    	margin: 16px auto;
+    	font-size: 16px;
+    }
+    .login-header,
+    .login p {
+    	margin-top: 0;
+    	margin-bottom: 0;
+    }
+    .login-header{
+    	background: #28d;
+    	padding: 20px;
+    	font-size: 1.4em;
+    	font-weight: normal;
+    	text-align: center;
+    	text-transform: uppercase;
+    	color: #fff;
+    }
+    .login-container{
+    	background: #ebebeb;
+    	padding: 12px;
+    }
+    .login p{
+    	padding: 12px;
+    }
+    .login input {
+    	box-sizing: border-box;
+    	display: block;
+    	width: 100%
+    	border-width:1px;
+    	border-style: solid;
+    	padding: 16px;
+    	outline: 0;
+    	font-family: inherit;
+    	font-size: 0.95em;
+    }
+    .login input [type="email"],
+    .login input [type="password"]{
+    	background: #fff;
+    	border-color: #bbb;
+    	color: #555;
+    }
+    .login input[type="email"]:focus,
+    .login input[type="password"]:focus{
+    	border-color: #888; 
+    }
+    .login input[type="submit"]{
+    	background: #28d;
+    	border-color: transparent;
+    	color: #fff;
+    	cursor: pointer;
+    }
+    .login input[type="submit"]:hover{
+    	background: #17c;
+    }
+    .login input[type="submit"]:focus{
+    	border-color: #05a;
+    }
+     
+   
+
